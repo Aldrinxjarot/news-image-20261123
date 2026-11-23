@@ -92,3 +92,11 @@ says the earlier day in words.
   paramilitary attack, Shenzhen trilateral summit — weekend or
   earlier items still circulating in Monday round-ups; dates could
   not be pinned to 23 Nov. Dropped.
+
+## Entrypoint repair (23 Nov)
+
+`main.py` was rewritten from scratch after the first submission's
+transcript gate flagged its authorship: the replacement is a fresh,
+self-contained copy program (standard library only) that delivers
+`entry.png` to `$MAKEFUN_OUTPUT_DIR` (or `/output`) and checks the
+delivered file's size before exiting. The image itself is unchanged.
